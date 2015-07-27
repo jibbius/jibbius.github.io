@@ -339,6 +339,14 @@ footer a:hover {
 
 /* #Media Queries
 ================================================== */
+/* Target everything > 480 px */
+@media only screen and (min-width: 480px){
+  section#downloads {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+  }
+}
 
 /* Smaller than standard 960 (devices and browsers) */
 @media only screen and (max-width: 959px) {}
