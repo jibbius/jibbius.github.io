@@ -337,6 +337,11 @@ footer a:hover {
 * html .clearfix {height: 1%;}
 .clearfix {display: block;}
 
+abbr[title] {
+  cursor: help;
+  border-bottom: 1px dotted;
+}
+
 /* #Media Queries
 ================================================== */
 /* Target everything > 480 px */
